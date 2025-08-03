@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Your Custom Podcast</title>
+    <link>https://yourwebsite.com/</link>
+    <description>This is my private podcast with music.</description>
+    <language>en-us</language>
+    <itunes:author>Your Name</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+
+    <item>
+      <title>Track 1</title>
+      <description>Track 1 description</description>
+      <enclosure url="https://yourname.github.io/mypodcast/audio/track1.mp3" length="1234567" type="audio/mpeg"/>
+      <guid>track1</guid>
+      <pubDate>Mon, 01 Jan 2024 12:00:00 +0000</pubDate>
+    </item>
+
+    <item>
+      <title>Track 2</title>
+      <description>Track 2 description</description>
+      <enclosure url="https://yourname.github.io/mypodcast/audio/track2.mp3" length="1234567" type="audio/mpeg"/>
+      <guid>track2</guid>
+      <pubDate>Tue, 02 Jan 2024 12:00:00 +0000</pubDate>
+    </item>
+
+  </channel>
+</rss>
