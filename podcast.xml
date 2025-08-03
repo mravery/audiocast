@@ -2,27 +2,23 @@
 <rss version="2.0"
      xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
-    <title>Your Custom Podcast</title>
-    <link>https://yourwebsite.com/</link>
-    <description>This is my private podcast with music.</description>
+    <title>Test AudioCast</title>
     <language>en-us</language>
-    <itunes:author>Your Name</itunes:author>
-    <itunes:explicit>no</itunes:explicit>
+    <description>Testing</description>
+    <itunes:author>MrAvery</itunes:author>
+    <itunes:summary>Private AudioCast</itunes:summary>
+    <itunes:image href="https://mravery.github.io/audiocast/music.jpg" />
+    <itunes:category text="Music" />
+    <lastBuildDate>Sun, 03 Aug 2025 03:47:55 GMT </lastBuildDate>
 
     <item>
-      <title>Track 1</title>
-      <description>Track 1 description</description>
-      <enclosure url="https://yourname.github.io/mypodcast/audio/track1.mp3" length="1234567" type="audio/mpeg"/>
-      <guid>track1</guid>
-      <pubDate>Mon, 01 Jan 2024 12:00:00 +0000</pubDate>
-    </item>
-
-    <item>
-      <title>Track 2</title>
-      <description>Track 2 description</description>
-      <enclosure url="https://yourname.github.io/mypodcast/audio/track2.mp3" length="1234567" type="audio/mpeg"/>
-      <guid>track2</guid>
-      <pubDate>Tue, 02 Jan 2024 12:00:00 +0000</pubDate>
+      <title>Episode 1: Introduction</title>
+      <description>Welcome to episode 1.</description>
+      <pubDate>Sun, 03 Aug 2025 03:47:55 GMT </pubDate>
+      <enclosure url="https://mravery.github.io/audiocast/audio/02 In Bloom.mp3" length="6501066" type="audio/mpeg" />
+      <guid>https://mravery.github.io/audiocast/audio/02 In Bloom.mp3</guid>
+      <itunes:duration>04:31</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
     </item>
 
   </channel>
